@@ -1,0 +1,259 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,900&display=swap";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../imagens/img-background-home.png");
+    color: #414142;
+    height: 100%;
+    background-size: cover;
+}
+
+a {
+    color: #2d7dd0;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    color: #08488b;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar a,
+#sidebar a:hover,
+#sidebar a:focus {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 5px 16px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    margin: -20px -20px 20px -20px !important;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) !important;
+    justify-content: center !important;
+}
+
+.navbar-btn {
+    background-color: transparent !important;
+    font-size: 1.5em !important;
+    padding-left: 5px !important;
+    color: #fff;
+}
+
+.navbar-btn:focus {
+    box-shadow: none !important;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+#content {
+    width: 100%;
+    padding: 20px 20px 70px 20px;
+    min-height: 96vh;
+    transition: all 0.3s;
+}
+
+
+.spam-info {
+    font-size: 12px;
+    color: #627077;
+}
+
+.span-info-email {
+    font-size: 13px;
+    color: #627077;
+
+}
+
+.titulo-formulario {
+    margin-bottom: 5px;
+    white-space: normal;
+    font-size: 16px;
+    font-weight: bold;
+    color: #005994;
+    line-height: 30px;
+}
+
+.titulo-label {
+    margin-bottom: 5px;
+    white-space: normal;
+    font-size: 15px !important;
+    font-weight: bold;
+    color: #006fb7 !important;
+}
+
+span {
+    font-size: 0.80em !important;
+}
+
+.span-info-eleitor {
+    font-size: 15px !important;
+    color: #4a4a4a;
+    font-weight: 500;
+}
+
+.text-image-gov {
+    font-size: .9rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.text-image-participe{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.div-image-text{
+    background-color: #FFFFFFd4;
+    border-radius: 4px;
+    padding: 0 15px 0 0;
+}
+.image-home{
+    height : 500px
+}
+
+.div-text{
+    background-color: #337ab7e6;
+    border-radius: 4px;
+    padding: 15px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sub-div-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;"
+}
+
+.center-content-div{
+    display: flex;
+    justify-content: center;
+}
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+
+}
+
+/*Menu*/
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+
+    #sidebar.active {
+        margin-left: 0;
+    }
+
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+.btn-primary {
+    background-color: #08488b;
+    border-color: #08488b;
+    width: 120px !important;
+    padding: 4px 0px !important;
+    text-shadow: none !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 5px !important;
+    font-weight: 500 !important;
+}
+
+.btn-primary:hover:enabled {
+    color: #fff;
+    background-color: #004fa1;
+    border-color: #004fa1;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    opacity: 0.65 !important;
+    cursor: unset !important;
+}
+
+.btn-outline-secondary {
+    color: #08b498;
+    background-color: transparent;
+    background-image: none;
+    border-color: #08b498;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #08b498;
+    border-color: #08b498;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #044d99;
+    outline: 0;
+    box-shadow: none;
+}
+
+.card-painel {
+    border: none;
+    margin-bottom: 0px;
+}
+
+.card-painel h1 {
+    font-weight: 800;
+    color: #fff;
+}
+
+.card-painel h5 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.card-body-estilo {
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    text-align: justify;
+}
+
+
+/*--------------------------------------------------------------------*/
+
+.error-desc {
+    width: 45%;
+    margin: auto;
+}
+
+@media screen and (max-width: 40em) {
+    .ui-fileupload-buttonbar .ui-button {
+        padding: .4em 1em .3em 1.2em !important;
+    }
+
+    .ui-fileupload-buttonbar .ui-button .ui-button-text {
+        display: inline-block !important;
+    }
+}
